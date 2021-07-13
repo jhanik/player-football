@@ -1,0 +1,78 @@
+/* externel stylesheets */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin: 0;
+    background-color: #f5efef;
+}
+
+ /* top banner styles */
+ 
+.banner{
+    display: flex;
+    background-color: blueviolet;
+    margin:0;
+}
+.banner-info h1{
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+    padding-bottom: 27px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+    color: rgb(212, 205, 205);
+    
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 153px;
+}
+
+.banner-image:hover{
+    transform:rotateY(180deg);
+    transition: transform .4s ease-in;
+}
+.watch-button{
+    text-decoration: none;
+    background-color: #e02c6d;
+    margin-left: 156px;
+    margin-top: 27px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* footer part styles */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.footer-image img{
+    width: 484px;
+    height: 110px;
+    padding-bottom: 20px;
+}   
+.social-icons{
+    text-align: center;
+    width: 200px;
+    height: 32px;
+ 
+}
+.social-icons a{
+    text-decoration: none;
+}
+.icon{
+    color:rgb(194, 189, 189);
+    font-size: 25px;
+    margin-right: 15px;
+
+}
