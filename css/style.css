@@ -120,6 +120,45 @@ body{
 .news-info p{
     margin-left:70px;
 }
+/* about us styles */
+
+.about{
+    background-color:deepskyblue;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+    padding-top:25px;
+
+}
+.about-us-title{
+    margin-top: 50px;
+    text-align:center;
+    padding-bottom: 20px;
+    padding-top:30px;
+    font-size:25px;
+
+}
+
+.about-image img{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
+    
+}
+
+.about-info p{
+    width: 485px;
+    height: 230px;
+    margin-left:50px;
+    
+}
+
+
 /* footer part styles */
 
 .footer{
@@ -149,4 +188,49 @@ body{
     font-size: 25px;
     margin-right: 15px;
 
+}
+
+/* responsive design */
+
+/* small device */
+
+@media (max-width: 768px) {
+    .container, .top-news{
+        width: 350px;
+        padding: 50px 0;
+    }
+    .container, .banner, .about-container{
+        display: block;
+    }
+    .about-container{
+        padding-right:150px;
+    }
+    .banner-image img{
+        width:300px;
+    }
+
+    .banner-info, .banner-image, .about-image{
+            width:100%;
+    }
+    .banner-info h1{
+        font-size: 36px;
+        line-height: 50px;
+        padding-top:30px;
+    }
+    .player-list, .newses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-image img{
+       width: 300px;
+       height:200px
+    }
+    .news img{
+        width: 300px;
+    }
+    .banner-info{
+        width: 100%;
+    }
+    .footer-image img{
+        width: 300px;
+    }
 }
