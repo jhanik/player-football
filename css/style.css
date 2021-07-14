@@ -1,9 +1,11 @@
 /* externel stylesheets */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 body{
     margin: 0;
-    background-color: #f5efef;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
 }
 
  /* top banner styles */
@@ -46,6 +48,78 @@ body{
     color: white;
 }
 
+/* players part styles */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.player-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    width: 1050px;
+}
+.player {
+    margin-right: 30px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-bottom: 33px;
+}
+.player-image img {
+    width: 300px;
+    height: 256px;
+}  
+.player-info h2{
+   
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+}
+.player-info p{
+    color:#6C6C6C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+/* top news styles */
+
+.top-news{
+    background-color:cornsilk;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.news-section-title{
+    color: violet;
+    margin:15px;
+    font-size:30px;
+}
+.newses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+    margin-top: 20px;
+    place-items: center;
+}
+.news img{
+    width: 400px;
+}
+.news-info{
+    display: flex;
+    
+}
+.news-info p{
+    margin-left:70px;
+}
 /* footer part styles */
 
 .footer{
